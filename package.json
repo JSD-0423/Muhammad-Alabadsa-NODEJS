@@ -1,0 +1,16 @@
+{
+  "name": "nodejs-project-1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "ENV=production node server.js",
+    "dev": "ENV=development nodemon server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  }
+}
